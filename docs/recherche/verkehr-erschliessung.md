@@ -28,7 +28,10 @@ Stand: 05.11.2026. Ergänzt [ritter-aldebert-bebauung.md](ritter-aldebert-bebauu
 - Wohnstraße in einer Tempo-30-Zone, Länge ca. **380 m** (zwei Abschnitte mit 334 m und 45 m).
 - Am **Ostende** geht sie in einen gemeinsamen Geh- und Radweg (Zeichen 240) über. Für Kfz ist sie also eine **Sackgasse mit einer einzigen Zufahrt** über die Breslauer Straße.
 - Laut Anwohnern wird am Fahrbahnrand geparkt, sodass die Straße **praktisch einspurig** ist. *Mit Messungen belegen, siehe Abschnitt 6.*
-- Ob es am Ende eine Wendeanlage für Müll- und Rettungsfahrzeuge gibt, ist in den Daten nicht erkennbar. *Vor Ort prüfen.*
+- Am Ende gibt es einen **Wendehammer**, in dem Müllfahrzeuge wenden können (Angabe Anwohner). Offen ist, ob er für zusätzlichen Liefer-, Müll- und Rettungsverkehr reicht.
+- Keine Buslinie in der Straße; die Haltestellen liegen an der Breslauer Straße.
+- Beliebte Radverbindung aus der Innenstadt Richtung TV 1860 bzw. Stadtwald (Angabe Anwohner).
+- Morgens im Berufsverkehr kommt man wegen der vollen Breslauer Straße kaum aus der Straße heraus (Angabe Anwohner).
 
 **Einmündung in die Breslauer Straße** (Hauptverkehrsstraße, Tempo 50) [D1]:
 - liegt **unmittelbar nördlich der Bahnbrücke** der Strecke Fürth–Würzburg
@@ -60,10 +63,16 @@ Stand: 05.11.2026. Ergänzt [ritter-aldebert-bebauung.md](ritter-aldebert-bebauu
 | Sonstiges | KiTa (Bring- und Holverkehr) | Studie S. 10 |
 
 **Abschätzung des Kfz-Verkehrs** (*eigene Rechnung*):
-- In Verkehrsgutachten nach dem Verfahren von Bosserhoff üblich: **2,3–2,5 Kfz-Fahrten je Einwohner und Tag** [D3], bei **2–3 Einwohnern je Wohnung**.
-- Das ergibt ca. **4,6–8,75 Kfz-Fahrten je Wohnung und Tag**.
-- Bei **130 Wohnungen** sind das **ca. 600–1.100 zusätzliche Kfz-Fahrten pro Tag**, alle über **eine** Einmündung.
-- In der Spitzenstunde sind es typischerweise ca. 10 % davon, also **etwa 60–110 Fahrten pro Stunde**. *Annahme, im Gutachten zu prüfen.*
+*Korrigiert am 05.11.2026: Die frühere Angabe „600–1.100“ beruhte auf einem Kennwert für ein Einfamilienhausgebiet (Neuhausen, 2,3–2,5 Kfz-Fahrten je Einwohner) und einem Rechenfehler (Obergrenze 3,5 statt 3 Einwohner je Wohnung). Sie ist überholt.*
+- Verfahren nach Bosserhoff („Ver_Bau“), Kennwerte aus der Verkehrsmengenermittlung zum Nürnberger B-Plan 4673 „Worzeldorf Ortsrand“ (2023) [D3]:
+  - Einwohner = Wohnungen × 1,8–2,2
+  - Wege = Einwohner × 3,5–4,0 je Werktag; davon 90 % mit Quelle oder Ziel im Gebiet
+  - Kfz-Fahrten = Wege × MIV-Anteil 40–60 % ÷ Besetzungsgrad 1,3
+  - Besucherverkehr: 5 % der Einwohnerwege (gleicher MIV-Anteil); Wirtschaftsverkehr: 0,10 Fahrten je Einwohner
+- Ergebnis für **130 Wohnungen brutto: ca. 260–530 zusätzliche Kfz-Fahrten pro Tag** (Einwohner 227–475, Besucher 13–26, Wirtschaft 23–29), alle über **eine** Einmündung.
+- Netto (nach Abzug abgerissener Bestandswohnungen) entsprechend weniger, z. B. bei 66 WE netto ca. 135–270.
+- Spitzenstunde: grob 10 %, also **ca. 25–50 Fahrten pro Stunde** (*Annahme*). Zum Vergleich: Nürnberg errechnet für 151 WE ca. 30 Kfz/h je Richtung in der Spitzenstunde.
+- → Das Kapazitätsargument trägt eher über den **Engpass** (faktisch einspurige Straße, eine Einmündung an Bahnbrücke und Bushalt, morgendlicher Rückstau auf der Breslauer Straße, Radverkehr) als über die reine Menge.
 - Dazu kommen der KiTa-Verkehr, Liefer- und Paketverkehr, Müllabfuhr und über Jahre der **Baustellenverkehr** (Abriss, Tiefgaragen, Holzmodule per Schwertransport und Kran).
 - *Offen:* Sind die 130 Wohnungen netto gerechnet, also nach Abzug abgerissener Bestandswohnungen? Laut FürthWiki stehen auf der Fläche heute 4 Blöcke mit 64 Wohnungen. Sind die WBG-Häuser A/B darin enthalten?
 
@@ -72,9 +81,8 @@ Stand: 05.11.2026. Ergänzt [ritter-aldebert-bebauung.md](ritter-aldebert-bebauu
 - In den Zonen I und II müssen nur 50 % bzw. 75 % der Stellplätze tatsächlich gebaut werden, der Rest kann abgelöst werden (10.000–15.000 € je Stellplatz).
   *Laut Zonenkarte liegt das Gebiet vermutlich **außerhalb** der Zonen. Zu prüfen.*
 - Eine Ablöse setzt voraus, dass der „Andienungs-, Hol- und Bringverkehr vertretbar geregelt ist“ [S3].
-- → **Zielkonflikt:** Die Stadt will viele geförderte Wohnungen, die Satzung verlangt dafür aber nur halb so viele Stellplätze.
-  Real besitzen Haushalte trotzdem Autos, und **was nicht auf dem Grundstück parkt, parkt auf der Straße**.
-  Fordern: ein **Parkraumkonzept** und den **Nachweis, dass kein zusätzlicher Parkdruck auf der Straße** entsteht. Am besten zusätzlich Ersatz, falls Parkplätze am Fahrbahnrand durch neue Zufahrten wegfallen.
+- → Die Entwürfe sehen **174 Stellplätze** vor (145 Volkswohl + 29 WBG), also **mehr** als das Satzungsminimum. Verbindlich sind die Entwürfe aber nicht; im Verfahren könnte die Zahl bis auf das Minimum (bei gefördertem Wohnungsbau 0,5 je Wohnung) sinken.
+  Fordern: **Stellplatzzahl der Entwürfe vertraglich sichern** und ein **Parkraumkonzept** (kein zusätzlicher Parkdruck in Straße und Nachbarstraßen; Ausgleich für wegfallende öffentliche Stellplätze, z. B. über Tiefgaragen oder ein Mobilitätskonzept mit Carsharing und Radabstellanlagen).
 
 ---
 
@@ -104,7 +112,7 @@ Stand: 05.11.2026. Ergänzt [ritter-aldebert-bebauung.md](ritter-aldebert-bebauu
 
 | Gegenargument | Antwort bzw. Einordnung |
 |---|---|
-| „Keine Unfälle an der Einmündung“ | Stimmt laut Unfallatlas (2022–2024). Es geht aber um **Leistungsfähigkeit und Erreichbarkeit**, nicht um Unfallhäufung. Bei 600–1.100 Fahrten pro Tag zusätzlich ändert sich die Lage grundlegend. |
+| „Keine Unfälle an der Einmündung“ | Stimmt laut Unfallatlas (2022–2024). Es geht aber um **Leistungsfähigkeit und Erreichbarkeit**, nicht um Unfallhäufung. Entscheidend ist der Engpass: eine einspurige Straße, eine Einmündung, schon heute morgens kaum frei. |
 | „Gute ÖPNV-Anbindung, Bus vor der Tür, S-Bahn geplant“ | Die S-Bahn ist **langfristig und ungesichert**. Bis dahin gilt der heutige Bus. Gerade die Bushaltestellen am Knoten **verschärfen** das Einbiegeproblem. |
 | „Tempo 30, ruhige Wohnstraße“ | Tempo 30 sagt nichts über die **Breite** und den **Begegnungsverkehr** aus. Fordern: Messung und Prüfung nach den Richtlinien für Stadtstraßen (*RASt 06, zu prüfen*). |
 | „Fahrradstellplätze und Mobilitätswende“ | Ist zu begrüßen, ersetzt aber keinen Nachweis. Die Stellplatzsatzung senkt beim geförderten Wohnungsbau die Pkw-Stellplätze, der Parkdruck geht auf die Straße. |
@@ -146,7 +154,7 @@ Behörden und Gerichte reagieren auf **konkrete, nachprüfbare** Angaben. Vorsch
 >
 > Die Ritter-von-Aldebert-Straße ist eine Sackgasse von rund 380 m Länge mit einer einzigen Zufahrt über die Breslauer Straße. Durch Parken am Fahrbahnrand ist sie heute faktisch einspurig befahrbar [eigene Messung: Restbreite __ m, Datum __]. Die Einmündung liegt unmittelbar an der Bahnbrücke Fürth–Würzburg, in direkter Nähe der Einmündung Cadolzburger Straße und zweier Bushaltestellen; bereits heute kommt es dort zu Wartezeiten [eigene Beobachtung: __].
 >
-> Die vorgelegten Konzepte sehen ca. 130 neue Wohnungen und eine KiTa vor. Nach üblichen Kennwerten bedeutet das größenordnungsmäßig 600 bis 1.100 zusätzliche Kfz-Fahrten pro Tag über diese eine Zufahrt, zuzüglich Liefer-, Bring- und mehrjährigem Baustellenverkehr. Ein Verkehrsgutachten liegt den Unterlagen nicht bei.
+> Die vorgelegten Konzepte sehen ca. 130 neue Wohnungen und eine KiTa vor. Nach üblichen Kennwerten bedeutet das größenordnungsmäßig 260 bis 530 zusätzliche Kfz-Fahrten pro Tag über diese eine Zufahrt, zuzüglich Liefer-, Bring- und mehrjährigem Baustellenverkehr. Ein Verkehrsgutachten liegt den Unterlagen nicht bei.
 >
 > Auch bei Anwendung des § 246e BauGB muss die Erschließung zum Entscheidungszeitpunkt im Wesentlichen gesichert sein (FAQ des Bayerischen Staatsministeriums für Wohnen, Bau und Verkehr zum Bau-Turbo, Stand 02.04.2026, Abschnitt VII.1). Die Beschlussvorlage SpA/1335/2026 nennt die Erschließung selbst als im weiteren Verfahren insbesondere zu berücksichtigen.
 >
@@ -182,5 +190,5 @@ Behörden und Gerichte reagieren auf **konkrete, nachprüfbare** Angaben. Vorsch
 **Daten**
 - [D1] OpenStreetMap (Overpass-Abfrage vom 05.11.2026): Straßen „Ritter-von-Aldebert-Straße“ und „Breslauer Straße“ sowie Objekte im Umkreis von 150 m um die Einmündung (49.47345 N, 10.96621 E). © OpenStreetMap-Mitwirkende, ODbL.
 - [D2] Unfallatlas der Statistischen Ämter, Unfallorte 2022–2024 (CSV): https://www.opengeodata.nrw.de/produkte/transport_verkehr/unfallatlas/ · Viewer: https://unfallatlas.statistikportal.de/ · Filter: Kreis 09563 (Fürth), Abstand zur Einmündung < 250 m
-- [D3] Kennwerte zum Verkehrsaufkommen nach Bosserhoff, Beispiele: Neuhausen a. d. F. https://www.neuhausen-fildern.de/resources/02%20Datenobjekte/E-B%C3%BCrgerservice/Bebauungspl%C3%A4ne/%C3%96stlich%20Ziegelei/12_Toegelplan_2012.pdf · Mainz https://www.mainz.de/verwaltung-und-politik/buergerservice-online/o-53/2578_verkehrsgutachten_p2.pdf
+- [D3] Verkehrsmengenermittlung zum B-Plan Nr. 4673 „Worzeldorf Ortsrand“, Stadt Nürnberg (Ing.-Büro Christofori, 03.08.2023), Verfahren Bosserhoff: https://www.nuernberg.de/imperia/md/stadtplanung/bet_oeausl/16_4673_worzeldorfortsrand_oea_verkehrsmengenermittlung.pdf · (überholt, nur zum Vergleich: Neuhausen a. d. F., Einfamilienhausgebiet, 2,3–2,5 Kfz-Fahrten je Einwohner)
 - DGUV Information 214-033 (Abfallsammlung, Sackgassen bzw. Wendeanlagen; *nicht im Original geprüft*): https://publikationen.dguv.de/widgets/pdf/download/article/259
