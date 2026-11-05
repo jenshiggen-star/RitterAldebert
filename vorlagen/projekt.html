@@ -1,0 +1,51 @@
+<!doctype html>
+<!-- VORLAGE: nach projekte/<slug>.html kopieren, alle {{…}} ersetzen, Bilder nach assets/img/<slug>/, Kachel in projekte/index.html einfügen. -->
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{PROJEKTNAME}} – RitterAldebert</title>
+  <meta name="description" content="{{KURZBESCHREIBUNG}}">
+  <link rel="stylesheet" href="../assets/css/fonts.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="wrap">
+    <div class="topline"><span id="heute"></span><span>Ausgabe Nr. 1</span></div>
+    <div class="masthead"><a href="../index.html">RitterAldebert</a></div>
+  </header>
+  <nav class="sections wrap" aria-label="Rubriken">
+    <ul>
+      <li><a href="../index.html">Titelseite</a></li>
+      <li><a href="../artikel/index.html">Artikel</a></li>
+      <li><a href="index.html" aria-current="page">Projekte</a></li>
+    </ul>
+  </nav>
+
+  <main class="wrap">
+    <article class="article">
+      <span class="kicker">Werkstatt · {{JAHR}}</span>
+      <h1>{{PROJEKTNAME}}</h1>
+      <p class="dek">{{KURZBESCHREIBUNG}}</p>
+      <figure class="wide">
+        <img src="../assets/img/{{SLUG}}/{{BILD-1}}" alt="{{BILDBESCHREIBUNG}}" width="1600" height="1200">
+        <figcaption>{{BILDUNTERSCHRIFT}}</figcaption>
+      </figure>
+      <div class="body">
+        <p>{{BESCHREIBUNG: Idee, Material, Vorgehen}}</p>
+      </div>
+      <section class="gallery">
+        <figure>
+          <img src="../assets/img/{{SLUG}}/{{BILD-2}}" alt="{{BILDBESCHREIBUNG}}" width="1600" height="1200" loading="lazy">
+          <figcaption>{{BILDUNTERSCHRIFT}}</figcaption>
+        </figure>
+      </section>
+    </article>
+  </main>
+
+  <footer class="wrap">
+    <div class="footer"><span class="mark">RitterAldebert</span><span>© 2026 RitterAldebert<span class="sep" aria-hidden="true"> · </span><a href="../artikel/index.html">Archiv</a><span class="sep" aria-hidden="true"> · </span><a href="index.html">Projekte</a><span class="sep" aria-hidden="true"> · </span><a href="../impressum.html">Impressum</a><span class="sep" aria-hidden="true"> · </span><a href="../datenschutz.html">Datenschutz</a></span></div>
+  </footer>
+  <script src="../assets/js/datum.js"></script>
+</body>
+</html>
