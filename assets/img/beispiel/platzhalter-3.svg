@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
-  <defs><pattern id="h" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="14" stroke="#d6d6d6" stroke-width="2"/></pattern></defs>
-  <rect width="1200" height="900" fill="#f2f2f2"/><rect width="1200" height="900" fill="url(#h)"/>
-  <text x="600" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="56" fill="#8a8a8a">Platzhalterbild 3</text>
-</svg>

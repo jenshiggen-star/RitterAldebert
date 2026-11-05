@@ -31,7 +31,7 @@ Spalten-Überschrift 1.25rem · Fließtext 1.125rem / Zeilenhöhe 1.6 · Meta 0.
 ## Layout
 - Seitenbreite max. 1200px, Rand 16px (Handy) bis 32px.
 - **Startseite:** Kopfzeile (Datum links, Ort/Ausgabe rechts) → Masthead → Rubrikenleiste →
-  Raster `2fr 1fr 1fr`: links Aufmacher mit Bild, rechts zwei Teaser-Spalten. Darunter „Aus der Werkstatt“ (Projekte).
+  Raster `2fr 1fr 1fr`: links Aufmacher mit Bild, rechts zwei Teaser-Spalten.
 - **Artikel:** Lesespalte max. 640px, zentriert; Rubrik → Überschrift → Unterzeile (kursiv) → Autor/Datum → Bild → Text.
   Erster Absatz mit Initiale (Drop Cap) in der Headline-Schrift.
 - **Galerie:** `repeat(auto-fill, minmax(260px, 1fr))`, Bilder 4:3, Unterschrift in Meta-Schrift.

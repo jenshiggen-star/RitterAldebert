@@ -1,7 +1,7 @@
 # RitterAldebert – Homepage
 
 Persönliche Homepage im Stil einer klassischen Tageszeitung (Vorbild: New York Times).
-Inhalte: **Artikel/Blog** (`artikel/`) und **Projekte/Galerie** (`projekte/`).
+Inhalte: **Artikel/Blog** (`artikel/`). Rubrik **Projekte** ist vorbereitet, aber derzeit ausgeblendet (noch keine Projekte).
 Reines HTML/CSS, **kein Build-Schritt, kein Framework, kein npm**. Hosting: GitHub Pages
 aus Branch `main`, Ordner `/` (root). URL: `https://<github-name>.github.io/RitterAldebert/`.
 
@@ -13,8 +13,7 @@ datenschutz.html      Datenschutzerklärung – in JEDEM Footer verlinken; bei n
 assets/fonts/         lokal gehostete Schriften (OFL, Lizenz in LIZENZ.txt), eingebunden über assets/css/fonts.css
 artikel/index.html    Archiv aller Artikel (neueste oben)
 artikel/<slug>.html   ein Artikel pro Datei, slug = kleinbuchstaben-mit-bindestrich
-projekte/index.html   Galerie aller Projekte
-projekte/<slug>.html  Projektseite
+projekte/             (derzeit leer) – erst mit dem ersten echten Projekt anlegen
 assets/css/style.css  EINZIGES Stylesheet, alle Farben/Schriften als CSS-Variablen
 assets/img/           Bilder, Unterordner pro Artikel/Projekt
 vorlagen/             Kopiervorlagen – nie verlinken, nie direkt bearbeiten ohne Auftrag
@@ -54,8 +53,9 @@ scripts/check_links.py  prüft alle lokalen Links und Bildpfade
 Danach verlinken: (a) oben in `artikel/index.html`, (b) auf `index.html` als Aufmacher bzw. in die Spalten –
 der älteste Startseiten-Teaser rutscht dafür heraus (bleibt im Archiv).
 
-**Neues Projekt:** `vorlagen/projekt.html` → `projekte/<slug>.html`, Bilder nach `assets/img/<slug>/`,
-Kachel in `projekte/index.html` einfügen (neueste zuerst).
+**Neues Projekt:** `vorlagen/projekt.html` → `projekte/<slug>.html`, Bilder nach `assets/img/<slug>/`.
+Beim ERSTEN Projekt zusätzlich `projekte/index.html` (Galerie) anlegen und „Projekte“ wieder in Navigation und Fußzeile aller Seiten + `vorlagen/artikel.html` aufnehmen.
+**Keine Platzhalter-Inhalte veröffentlichen** (keine Beispielartikel, -projekte oder -bilder).
 
 ## Prüfen (vor jedem Veröffentlichen)
 ```
