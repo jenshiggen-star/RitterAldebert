@@ -30,6 +30,7 @@ Stand: 05.11.2026. Ergänzt [ritter-aldebert-bebauung.md](ritter-aldebert-bebauu
 - Laut Anwohnern wird am Fahrbahnrand geparkt, sodass die Straße **praktisch einspurig** ist. *Mit Messungen belegen, siehe Abschnitt 6.*
 - Am Ende gibt es einen **Wendehammer**, in dem Müllfahrzeuge wenden können (Angabe Anwohner). Offen ist, ob er für zusätzlichen Liefer-, Müll- und Rettungsverkehr reicht.
 - Keine Buslinie in der Straße; die Haltestellen liegen an der Breslauer Straße.
+- **Fußgängerquerung** über die Breslauer Straße in Verlängerung der Straße: ohne Ampel und Zebrastreifen (OSM: crossing=unmarked). Nötig zur Bushaltestelle Richtung Unterfürberg, beliebter Schulweg für Grundschulkinder zur Soldnerschule (Angabe Anwohner).
 - Beliebte Radverbindung aus der Innenstadt Richtung TV 1860 bzw. Stadtwald (Angabe Anwohner).
 - Morgens im Berufsverkehr kommt man wegen der vollen Breslauer Straße kaum aus der Straße heraus (Angabe Anwohner).
 
@@ -70,7 +71,7 @@ Stand: 05.11.2026. Ergänzt [ritter-aldebert-bebauung.md](ritter-aldebert-bebauu
   - Kfz-Fahrten = Wege × MIV-Anteil 40–60 % ÷ Besetzungsgrad 1,3
   - Besucherverkehr: 5 % der Einwohnerwege (gleicher MIV-Anteil); Wirtschaftsverkehr: 0,10 Fahrten je Einwohner
 - Ergebnis für **130 Wohnungen brutto: ca. 260–530 zusätzliche Kfz-Fahrten pro Tag** (Einwohner 227–475, Besucher 13–26, Wirtschaft 23–29), alle über **eine** Einmündung.
-- Netto (nach Abzug abgerissener Bestandswohnungen) entsprechend weniger, z. B. bei 66 WE netto ca. 135–270.
+- **Netto ≈ 98 WE** (Ortsbesichtigung 06.11.2026: 2 mittlere Blöcke mit 32 WE vermutlich Abriss): **ca. 200–400 Kfz-Fahrten/Tag**, Spitzenstunde ca. 20–40. Diese Werte stehen seit 06.11.2026 im Artikel.
 - Spitzenstunde: grob 10 %, also **ca. 25–50 Fahrten pro Stunde** (*Annahme*). Zum Vergleich: Nürnberg errechnet für 151 WE ca. 30 Kfz/h je Richtung in der Spitzenstunde.
 - → Das Kapazitätsargument trägt eher über den **Engpass** (faktisch einspurige Straße, eine Einmündung an Bahnbrücke und Bushalt, morgendlicher Rückstau auf der Breslauer Straße, Radverkehr) als über die reine Menge.
 - Dazu kommen der KiTa-Verkehr, Liefer- und Paketverkehr, Müllabfuhr und über Jahre der **Baustellenverkehr** (Abriss, Tiefgaragen, Holzmodule per Schwertransport und Kran).

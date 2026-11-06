@@ -139,6 +139,9 @@ figcaption { margin-top: 6px; line-height: 1.4; }
 }
 .article .body figure { margin: 1.6em 0 1.8em; }
 .article .body figure > img { max-height: 620px; width: auto; max-width: 100%; margin: 0 auto; }
+.photo-pair { display: grid; grid-template-columns: 1fr; gap: 14px; margin: 1.6em 0 1.8em; }
+@media (min-width: 560px) { .photo-pair { grid-template-columns: 1fr 1fr; } }
+.article .body .photo-pair figure { margin: 0; }
 img.crop-43 { aspect-ratio: 4 / 3; object-fit: cover; object-position: center 40%; width: 100%; }
 .article .body ol, .article .body ul { padding-left: 1.4em; margin: 0 0 1.4em; }
 .article .body li { margin: 0 0 0.7em; }

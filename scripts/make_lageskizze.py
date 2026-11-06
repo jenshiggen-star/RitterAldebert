@@ -46,7 +46,10 @@ BP256 = [(49.47378, 10.9630), (49.47391, 10.96407), (49.47402, 10.96627), (49.47
 # Grenze Volkswohl (West/Mitte) / WBG Nr. 51/53 (Osten) – schematisch
 DIV = [(49.47321, 10.97110), (49.47403, 10.97110)]
 
-layers = {k: [] for k in ["green", "water", "bldg", "bldg_gb", "minor", "major", "rail", "path", "rva"]}
+# Mittlere, nicht sanierte Volkswohl-Blöcke – vermutlich Abriss (Ortsbesichtigung 06.11.2026)
+ABRISS = {204357446, 204357447}
+
+layers = {k: [] for k in ["green", "water", "bldg", "bldg_gb", "bldg_abr", "minor", "major", "rail", "path", "rva"]}
 bus = []
 for e in els:
     t = e.get("tags", {})
@@ -60,7 +63,8 @@ for e in els:
     closed = g[0] == g[-1]
     if "building" in t:
         c = (sum(p["lat"] for p in g) / len(g), sum(p["lon"] for p in g) / len(g))
-        (layers["bldg_gb"] if inside(c[0], c[1], GB) else layers["bldg"]).append(path(g, True))
+        key = "bldg_abr" if e["id"] in ABRISS else ("bldg_gb" if inside(c[0], c[1], GB) else "bldg")
+        layers[key].append(path(g, True))
     elif t.get("landuse") in ("grass", "meadow") or t.get("natural") in ("scrub", "wood") or t.get("leisure") == "park":
         if closed:
             layers["green"].append(path(g, True))
@@ -99,7 +103,9 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="im
 {grp("water", 'fill="none" stroke="#7aa3c4" stroke-width="2"')}
 {grp("bldg", 'fill="#e2e2e0"')}
 <path d="{path([{"lat": a, "lon": b} for a, b in GB], True)}" fill="#a8442a" fill-opacity="0.12" stroke="#a8442a" stroke-width="2" stroke-dasharray="7 5"/>
-{grp("bldg_gb", 'fill="#b9b9b6"')}
+{grp("bldg_gb", 'fill="#9a9a96"')}
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#f3e3dd"/><line x1="0" y1="0" x2="0" y2="6" stroke="#a8442a" stroke-width="2.5"/></pattern></defs>
+{grp("bldg_abr", 'fill="url(#hatch)" stroke="#a8442a" stroke-width="1.5"')}
 <path d="{path([{"lat": a, "lon": b} for a, b in DIV])}" fill="none" stroke="#a8442a" stroke-width="{1.5*K:.1f}" stroke-dasharray="4 4"/>
 {grp("minor", 'fill="none" stroke="#c4c4c0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"')}
 {grp("major", 'fill="none" stroke="#8d8d8a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"')}
@@ -127,8 +133,8 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="im
   <rect x="0" y="0" width="402" height="156" fill="#fafaf8" fill-opacity="0.94" stroke="#dfdfdf"/>
   <rect x="12" y="16" width="38" height="26" fill="#a8442a" fill-opacity="0.12" stroke="#a8442a" stroke-width="2" stroke-dasharray="5 4"/>
   <text x="62" y="40">Änderungsbereich</text>
-  <rect x="17" y="62" width="28" height="24" fill="#b9b9b6"/>
-  <text x="62" y="84">Bestand (Abriss offen)</text>
+  <rect x="17" y="62" width="28" height="24" fill="url(#hatch)" stroke="#a8442a" stroke-width="2"/>
+  <text x="62" y="84">vermutlich Abriss</text>
   <line x1="10" y1="124" x2="52" y2="124" stroke="#3d3d3a" stroke-width="3.5" stroke-dasharray="14 5 3 5"/>
   <text x="62" y="134">B-Plan Nr. 256</text>
 </g>
@@ -152,13 +158,15 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="im
   <text x="{wbx:.1f}" y="{wby+14:.1f}" font-size="11" fill="#a8442a" text-anchor="middle">Nr. 51/53</text>
 </g>
 <g {F} font-size="12" fill="#121212" transform="translate({W-318},12)">
-  <rect x="0" y="0" width="306" height="84" fill="#fafaf8" fill-opacity="0.94" stroke="#dfdfdf"/>
+  <rect x="0" y="0" width="306" height="104" fill="#fafaf8" fill-opacity="0.94" stroke="#dfdfdf"/>
   <rect x="10" y="10" width="22" height="14" fill="#a8442a" fill-opacity="0.12" stroke="#a8442a" stroke-width="1.5" stroke-dasharray="4 3"/>
   <text x="40" y="22">Änderungsbereich 3. Änderung (Stand 28.04.2026)</text>
-  <rect x="13" y="34" width="16" height="12" fill="#b9b9b6"/>
-  <text x="40" y="45">Bestandsgebäude (Erhalt oder Abriss offen)</text>
-  <line x1="8" y1="64" x2="34" y2="64" stroke="#3d3d3a" stroke-width="2.2" stroke-dasharray="14 5 3 5"/>
-  <text x="40" y="68">Geltungsbereich B-Plan Nr. 256 (schematisch)</text>
+  <rect x="13" y="34" width="16" height="12" fill="#9a9a96"/>
+  <text x="40" y="45">Bestand, saniert bzw. bleibt</text>
+  <rect x="13" y="54" width="16" height="12" fill="url(#hatch)" stroke="#a8442a"/>
+  <text x="40" y="65">vermutlich Abriss (Ortsbesichtigung)</text>
+  <line x1="8" y1="84" x2="34" y2="84" stroke="#3d3d3a" stroke-width="2.2" stroke-dasharray="14 5 3 5"/>
+  <text x="40" y="88">Geltungsbereich B-Plan Nr. 256 (schematisch)</text>
 </g>
 <g {F} font-size="{12*K:.0f}" fill="#5a5a5a">
   <rect x="{W-(560 if not MOBIL else 420)}" y="{H-30*K:.0f}" width="{560 if not MOBIL else 420}" height="{30*K:.0f}" fill="#fafaf8" fill-opacity="0.9"/>

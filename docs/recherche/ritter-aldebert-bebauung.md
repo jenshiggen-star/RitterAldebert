@@ -17,6 +17,7 @@ Die beiden Entwürfe in `RAW/` sind öffentliche Anlagen dieser Beschlussvorlage
 |---|---|---|
 | 1963-11-14 | Stadtrat benennt die Straße (Stadtteil Hardhöhe) | [Q10] |
 | nach 1945 | Volkswohl baut hier 4 Wohnblöcke mit 64 Wohnungen | [Q11] |
+| 2026-11-06 | Ortsbesichtigung: 4 Blöcke × 2 Treppenhäuser × 8 WE = 64. Die beiden äußeren Blöcke sind bzw. werden aufwendig saniert, die beiden mittleren nicht → Abriss von ≈ 32 WE naheliegend, netto ≈ 130 − 32 ≈ 98 (*Annahme, keine amtliche Angabe*). | eigene Beobachtung |
 | 1966-02-18 | Bebauungsplan Nr. 256 – Änderung | [Q9] |
 | 1973-05-04 | Bebauungsplan Nr. 256, 1. Änderung rechtsverbindlich (gilt heute für das Gebiet) | [Q1][Q9] |
 | 1978-04-07 | Bebauungsplan Nr. 256 – vereinfachte Änderung | [Q9] |
