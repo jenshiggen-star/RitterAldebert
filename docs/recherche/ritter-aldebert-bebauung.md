@@ -17,6 +17,7 @@ Die beiden Entwürfe in `RAW/` sind öffentliche Anlagen dieser Beschlussvorlage
 |---|---|---|
 | 1963-11-14 | Stadtrat benennt die Straße (Stadtteil Hardhöhe) | [Q10] |
 | nach 1945 | Volkswohl baut hier 4 Wohnblöcke mit 64 Wohnungen | [Q11] |
+| 2017-10-14/15 | Letzte auffindbare öffentlich angekündigte Lokalschau des Kleintierzuchtvereins B 465 Fürth Westvorstadt e.V., Vereinsheim Ritter-von-Aldebert-Str. 51 (= WBG-Grundstück Haus A/B) | kaninchenzeitung.de (Eintrag e_id=38760, inzwischen offline), Landesverband Bayern Kreis Mittelfranken |
 | 2026-11-06 | Ortsbesichtigung: 4 Blöcke × 2 Treppenhäuser × 8 WE = 64. Die beiden äußeren Blöcke sind bzw. werden aufwendig saniert, die beiden mittleren nicht → Abriss von ≈ 32 WE naheliegend, netto ≈ 130 − 32 ≈ 98 (*Annahme, keine amtliche Angabe*). | eigene Beobachtung |
 | 1966-02-18 | Bebauungsplan Nr. 256 – Änderung | [Q9] |
 | 1973-05-04 | Bebauungsplan Nr. 256, 1. Änderung rechtsverbindlich (gilt heute für das Gebiet) | [Q1][Q9] |
